@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'restaurant',
+    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -151,3 +152,5 @@ REST_FRAMEWORK = {
 #     'PAGE_SIZE': 4
     
 }
+
+DJOSER={"USER_ID_FIELD":"username"}
